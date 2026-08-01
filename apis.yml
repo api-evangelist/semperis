@@ -1,8 +1,30 @@
 aid: semperis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semperis.png
 name: Semperis
-description: 'Semperis is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Semperis provides identity-first cybersecurity and disaster recovery for
+  hybrid Active Directory, Entra ID, and Okta environments. Its platform
+  prevents, detects, and responds to identity-based attacks and enables rapid
+  recovery to a trusted state. Products include Directory Services Protector
+  (AD/Entra ID threat prevention, detection, and response), Active Directory
+  Forest Recovery, Disaster Recovery for Entra Tenant, Recovery for Okta,
+  Lightning Intelligence security posture assessment, Delegation Manager,
+  Migrator for AD, and the Ready1 crisis-response platform, alongside the free
+  community tools Purple Knight and Forest Druid. Backed by Insight Partners,
+  Semperis serves enterprises defending the identity attack surface. This
+  profile was enriched from public sources; Semperis publishes no public
+  developer/REST API surface as of this pass.
 url: https://raw.githubusercontent.com/api-evangelist/semperis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cybersecurity
+- Identity Security
+- Active Directory
+- Entra ID
+- Okta
+- Disaster Recovery
+- Threat Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.semperis.com/
+- type: Blog
+  url: https://www.semperis.com/blog/
+- type: Support
+  url: https://www.semperis.com/support/
+- type: GitHubOrganization
+  url: https://github.com/semperis
+- type: PrivacyPolicy
+  url: https://www.semperis.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.semperis.com/terms-of-use/
+- type: DomainSecurity
+  url: security/semperis-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
